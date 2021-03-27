@@ -3,8 +3,7 @@ import { ChakraProvider, Box, Image } from "@chakra-ui/react";
 import { Imageurl } from "@interfaces/ImageData";
 import { getImage } from "./services/images.service";
 import { extendTheme } from "@chakra-ui/react";
-// import Header from "@components/Header";
-import Card from "@components/Card";
+import Header from "@components/Header";
 // import { ColorModeSwitcher } from "./ColorModeSwitcher";
 // import { Logo } from "./Logo";
 const theme = extendTheme({
@@ -59,8 +58,7 @@ export const App = () => {
           borderColor="gray.300"
           borderRadius="12px"
         >
-          {/* <Header /> */}
-          <Card />
+          <Header />
         </Box>
       </Box>
     </ChakraProvider>
